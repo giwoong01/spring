@@ -10,7 +10,7 @@ import java.util.Optional;
 public class MemberService {
     private final MemberRepository memberRepository;
 
-    public MemberService(MemberRepository memberRepository){
+    public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
 
@@ -32,8 +32,8 @@ public class MemberService {
     }
 
     /*
-    * 전체 회원 조회
-    */
+     * 전체 회원 조회
+     */
     public List<Member> findMembers() {
         return memberRepository.findAll();
     }
