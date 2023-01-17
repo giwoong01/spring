@@ -1,1 +1,1 @@
-# spring 입문
+# spring
